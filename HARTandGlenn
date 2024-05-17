@@ -57,10 +57,10 @@ style_overwrite.innerHTML =
   border-color: #1a1a55;
 }
 #menu_container {
-  background-color: #BFE6FF;
+  background-color: c22e35;
 }
 #overall_result_container {
-  background-color: #BFE6FF;
+  background-color: c22e35;
 }
 #state_info h3 {
   background-color: #2b7dcf;
