@@ -63,10 +63,10 @@ style_overwrite.innerHTML =
   background-color: #BFE6FF;
 }
 #state_info h3 {
-  background-color: #3534a8;
+  background-color: #2b7dcf;
 }
 #overall_result h3 {
-  background-color: #3534a8;
+  background-color: #2b7dcf;
 }`
 ;
 document.head.appendChild(style_overwrite);
