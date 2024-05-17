@@ -50,5 +50,41 @@ campaignTrail_temp.player_answers = [];
 campaignTrail_temp.player_visits = [];
 campaignTrail_temp.answer_feedback_flg = 1;
 campaignTrail_temp.game_start_logging_id = '3662490';
+const style_overwrite = document.createElement("style");
+style_overwrite.innerHTML = 
+`#campaign_sign {
+  background-color: #B22B27;
+  border-color: #350d0c;
+}
+#menu_container {
+  background-color: #925559;
+}
+#overall_result_container {
+  background-color: #925559;
+}
+#state_info h3 {
+  background-color: #b78487;
+}
+#overall_result h3 {
+  background-color: #b78487;
+}`
+;
+document.head.appendChild(style_overwrite);
+
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .inner_window_question h3 {
+    background-color: #faf1f1;
+  }
+  .overlay_window h3 {
+    background-color: #d64a46;
+  }
+`;
+
+document.head.appendChild(style);
 
 
