@@ -53,20 +53,20 @@ campaignTrail_temp.game_start_logging_id = '3662490';
 const style_overwrite = document.createElement("style");
 style_overwrite.innerHTML = 
 `#campaign_sign {
-  background-color: #B22B27;
-  border-color: #350d0c;
+  background-color: #3534a8;
+  border-color: #1a1a55;
 }
 #menu_container {
-  background-color: #925559;
+  background-color: #BFE6FF;
 }
 #overall_result_container {
-  background-color: #925559;
+  background-color: #BFE6FF;
 }
 #state_info h3 {
-  background-color: #b78487;
+  background-color: #3534a8;
 }
 #overall_result h3 {
-  background-color: #b78487;
+  background-color: #3534a8;
 }`
 ;
 document.head.appendChild(style_overwrite);
