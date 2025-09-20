@@ -168,6 +168,9 @@ style.innerHTML = `
   border: none !important;
   border-radius: 0 !important;
 }
+#map_footer {
+    padding-top: 3em;
+}
 `;
 
 document.head.appendChild(style);
