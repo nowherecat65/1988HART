@@ -122,6 +122,9 @@ style.innerHTML = `
   .inner_window_question h3 {
     background-color: #faf1f1;
   }
+#map_footer {
+    padding-top: 3em;
+}
   .overlay_window h3 {
     background: linear-gradient(to bottom, #d64a46 0%, #b83b37 100%);
 	border-top: 2px solid #fff6f4;
