@@ -122,9 +122,6 @@ style.innerHTML = `
   .inner_window_question h3 {
     background-color: #faf1f1;
   }
-#map_footer {
-    padding-top: 3em;
-}
   .overlay_window h3 {
     background: linear-gradient(to bottom, #d64a46 0%, #b83b37 100%);
 	border-top: 2px solid #fff6f4;
@@ -139,9 +136,6 @@ style.innerHTML = `
   border: none !important;
   border-radius: 0 !important;
 }
-  #state_result_container {
-  background-color: #A42029;
-}
 #footer {
   background: linear-gradient(to bottom, #c22e35 0%, #b9212b 40%, #9b2028 100%);
   box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2);
@@ -149,6 +143,9 @@ style.innerHTML = `
   padding: 0 !important;
   border: none !important;
   border-radius: 0 !important;
+}
+#map_footer {
+    padding-top: 3em;
 }
 `;
 
