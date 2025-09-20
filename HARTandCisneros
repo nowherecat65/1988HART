@@ -20,7 +20,7 @@ campaignTrail_temp.running_mate_last_name = 'Graham';
     }
 
     if(ans == 4414){
-        campaignTrail_temp.question_number = 26;
+        campaignTrail_temp.question_number = 27;
     }
 }
 
